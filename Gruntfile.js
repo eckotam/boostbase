@@ -42,7 +42,7 @@ module.exports = function (grunt) {
       },
       image: {
         files: ['<%= config.src %>/templates/assets/img/*.{jpg,png,gif}'],
-        tasks: ['copy:img']
+        tasks: ['copy:images']
       },
       font: {
         files: ['<%= config.src %>/templates/assets/fonts/*.{woff,woff2}'],
