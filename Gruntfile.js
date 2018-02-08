@@ -39,6 +39,18 @@ module.exports = function (grunt) {
         options: {
           livereload: true
         }
+      },
+      image: {
+        files: ['<%= config.src %>/templates/assets/img/*.{jpg,png,gif}'],
+        tasks: ['copy:img']
+      },
+      font: {
+        files: ['<%= config.src %>/templates/assets/fonts/*.{woff,woff2}'],
+        tasks: ['copy:fonts']
+      },
+      js: {
+        files: ['<%= config.src %>/templates/assets/js/*.js'],
+        tasks: ['copy:javascripts']
       }
     },
 
