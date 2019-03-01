@@ -1,4 +1,4 @@
-# BoostBase: The base stucture for boostui.com products
+# BoostBase: The base stucture for static sites
 
 A static site generator boilerplate integrated with Grunt, Assemble, Bootstrap 4.
 
